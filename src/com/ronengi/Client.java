@@ -6,7 +6,7 @@ package com.ronengi;
 public class Client {
 
     public static void main(String[] args) {
-        MaxPQ<String> mpq = new MaxPQ<>(30);
+        MaxPQ<String> mpq = new MaxPQ<>(50);
         mpq.insert("T");
         mpq.insert("H");
         mpq.insert("I");
@@ -27,6 +27,19 @@ public class Client {
         mpq.insert("E");
         mpq.insert("U");
         mpq.insert("E");
+
+        mpq.insert("O");
+        mpq.insert("N");
+        mpq.insert("E");
+        mpq.insert("M");
+        mpq.insert("O");
+        mpq.insert("R");
+        mpq.insert("E");
+        mpq.insert("L");
+        mpq.insert("E");
+        mpq.insert("V");
+        mpq.insert("E");
+        mpq.insert("L");
 
         System.out.println(mpq);
     }
